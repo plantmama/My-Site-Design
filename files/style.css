@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  Example CSS rule for the body below - note that this is not a working font so you must use a real one */
+
+body {
+    font-family: bilbo, frodo, baggins-serif;
+}
+
+header {
+    background-color: #fffce5; /* Soft yellow background color */
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background-image: url('model1female.jpg');
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    background-image: url('model1male.jpg');
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
