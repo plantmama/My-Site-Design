@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  Example CSS rule for the body below - note that this is not a working font so you must use a real one */
+
+body {
+    font-family: bilbo, frodo, baggins-serif;
+}
+
+header {
+    background-color: #efe7a9; /* Soft yellow background color */
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+
+.product{
+    max-width: 100%;
+    height: 400px;
+    margin: 0 5px;
+}
+
+
+
+
