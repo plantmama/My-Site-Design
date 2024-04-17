@@ -33,4 +33,23 @@ main {
 
 
 
+/* Remove underline and purple color from links */
+nav a {
+    text-decoration: none;
+    color: black; /* Change the color to black */
+}
+
+/* Remove bullets from the list */
+nav ul {
+    list-style-type: none;
+}
+
+/* Change color to red on hover */
+nav a:hover {
+    color: red;
+}
+
+footer {
+    color: grey;
+}
 
